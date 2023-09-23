@@ -2,4 +2,6 @@ pandas
 numpy
 flask
 scikit-learn
--e .
+pymongo
+pickle
+# -e .

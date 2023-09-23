@@ -1,0 +1,50 @@
+<html>
+<body>
+<form action="{{url_for('predict_datapoint')}}" method="POST">
+    <div class="form-group">
+        <label for="cement">Carat:</label>
+        <input type="text" id="cement" name="cement" placeholder="Enter cement value (float)">
+    </div>
+
+    <div class="form-group">
+        <label for="Blast_furnace_slag">Depth:</label>
+        <input type="text" id="Blast_furnace_slag" name="Blast furnace slag" placeholder="Enter Blast furnace slag value (float)">
+    </div>
+
+    <div class="form-group">  
+        <label for="Fly_ash">Table:</label>
+        <input type="text" id="Fly_ash" name="Fly ash" placeholder="Enter Fly ash value (float)">
+    </div>
+    
+    <div class="form-group">
+        <label for="water">x:</label>
+        <input type="text" id="water" name="water" placeholder="Enter water value (float)">
+    </div>
+  
+    <div class="form-group">
+        <label for="Superplasticizer">y:</label>
+        <input type="text" id="Superplasticizer" name="Superplasticizer" placeholder="Enter Superplasticizer value (float)">
+    </div>
+  
+    <div class="form-group">
+        <label for="Coarse_aggregate">z:</label>
+        <input type="text" id="Coarse_aggregate" name="Coarse aggregate" placeholder="Enter fine aggregate value (float)">
+    </div>
+    
+    <div class="form-group">
+      <label for="fine_aggregate">z:</label>
+      <input type="text" id="fine_aggregate" name="fine aggregate" placeholder="Enter fine aggregate value (float)">
+    </div> 
+  
+    <div class="form-group">
+      <label for="age">z:</label>
+      <input type="text" id="age" name="age" placeholder="Enter age value (float)">
+    </div> 
+
+<div style="clear:both;"></div>
+  <input type="submit" value="Submit">
+</form>
+
+{{final_result}}
+</body>
+</html>
